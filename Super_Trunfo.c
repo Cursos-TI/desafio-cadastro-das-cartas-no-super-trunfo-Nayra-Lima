@@ -51,4 +51,46 @@ printf("CARTA 1\n");
     printf("A área é:  %.2f km²\n", area1);
     printf("O PIB do Estado é: %.2f bilhões de reais\n", pib1);
     printf("A quantidade de pontos turísticos é: %d\n", pontosturisticos1);
+
+    // apresentação da segunda carta   
+
+printf("CARTA 2\n");
+
+//cadastro dos comandos de entrada de dados.
+
+    printf("Digite a primeira letra do Estado:");
+    scanf(" %c", &estado2);
+    
+    printf(" Digite o código da carta, A01 para a primeira e A02 para a segunda:");
+    scanf(" %s", codigoA2);
+
+    printf("Digite o nome da cidade:");
+    scanf(" %s", cidade2);
+
+    printf("Digite a população do Estado:");
+    scanf(" %d", &populacao2);
+
+    printf("Digite a área:");
+    scanf(" %f", &area2);
+
+    printf("Digite o PIB:");
+    scanf(" %f", &pib2);
+
+    printf("Digite a quantidade de pontos turísticos do Estado:");
+    scanf(" %d", &pontosturisticos2);
+
+// agora o cadastro dos comandos para sair os dados inseridos da segunda carta.
+
+    printf("CARTA 2\n");
+    printf("A letra do Estado é: %c \n", estado2);
+    printf("O código da carta é: %s \n", codigoA2);
+    printf("O nome da cidade é: %s \n", cidade2);
+    printf("A população do Estado é: %d \n", populacao2);
+    printf("A área é:  %.2f km²\n", area2);
+    printf("O PIB do Estado é: %.2f bilhões de reais\n", pib2);
+    printf("A quantidade de pontos turísticos é: %d\n", pontosturisticos2);
+
+printf("FIM!!!");
+
+return 0;
 }
